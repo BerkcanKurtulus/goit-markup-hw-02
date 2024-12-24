@@ -1,12 +1,13 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Roboto", sans-serif;
   display: block;
-  width: 90em;
-  height: 206.25em;
+  width: 1440px;
+  height: 3300px;
   position: relative;
   margin: 0 auto;
   color: #434455;
@@ -14,24 +15,24 @@ body {
 }
 
 .top-line {
-  height: 4.5em;
-  width: 90em;
+  height: 72px;
+  width: 1440px;
   background-color: #fff;
   display: block;
   position: relative;
   overflow: hidden;
 }
 .logo {
-  height: 4.5em;
+  height: 72px;
   display: block;
   position: absolute;
-  top: 1.5em;
-  left: 9.75em;
+  top: 24px;
+  left: 156px;
   font-size: 18px;
   font-family: Raleway;
   font-weight: 700;
-  letter-spacing: 0.03em;
-  line-height: 1.17;
+  letter-spacing: 0.48px;
+  line-height: 21.06px;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -41,23 +42,23 @@ body {
   font-family: Raleway;
   font-weight: 700;
   color: #2e2f42;
-  width: 4.4375em;
-  height: 1.3125em;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  width: 71px;
+  height: 21px;
+  line-height: 21.06px;
+  letter-spacing: 0.48px;
   text-transform: uppercase;
 }
 .menu-nav {
   position: absolute;
-  width: 18.75em;
-  height: 1.5em;
-  margin-top: 1.5em;
-  margin-left: 25em;
+  width: 300px;
+  height: 24px;
+  margin-top: 24px;
+  margin-left: 400px;
 }
 
 .menu-nav ul li {
   display: inline-block;
-  margin-right: 2.5em;
+  margin-right: 40px;
 }
 .menu-nav ul li a {
   color: #2e2f42;
@@ -68,43 +69,44 @@ body {
 }
 .address p {
   display: inline-block;
-  margin-top: 1.5em;
-  margin-right: 5em;
-  font-size: 1em;
+  float: right;
+  margin-top: 24px;
+  margin-right: 80px;
+  font-size: 16px;
   font-style: normal;
 }
 
 .hero-image {
-  height: 37.5em;
-  width: 90em;
+  height: 600px;
+  width: 1440px;
   background-color: #2e2f42;
   display: block;
   position: relative;
-  margin-top: 0.0625em;
+  margin-top: 1px;
 }
 .hero-image h1 {
-  font-size: 3.5rem;
+  font-size: 56px;
   color: #fff;
   display: block;
-  width: 31rem;
-  height: 7.5rem;
+  width: 496px;
+  height: 120px;
   position: absolute;
   text-align: center;
-  margin-top: 10rem;
-  margin-left: 31rem;
+  margin-top: 160px;
+  margin-left: 496px;
 }
 
 .button {
   display: inline-block;
-  width: 10.5625rem;
-  height: 3.5rem;
+  width: 169px;
+  height: 56px;
   background-color: #4d5ae5;
   position: absolute;
-  margin-top: 26.75rem;
-  margin-left: 39.75rem;
+  margin-top: 428px;
+  margin-left: 636px;
   cursor: pointer;
-  border-radius: 0.25rem;
-  box-shadow: 0 0.25rem 0.25rem 0 #00000015;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 #00000015;
 }
 .button button:hover {
   color: #020202;
@@ -112,27 +114,27 @@ body {
 
 .button button {
   color: #fff;
-  font-size: 1rem;
+  font-size: 16px;
   background-color: #4d5ae5;
   display: inline-block;
-  width: 6.5625rem;
-  height: 1.5rem;
+  width: 105px;
+  height: 24px;
   position: relative;
-  margin-top: 1rem;
-  margin-left: 2rem;
+  margin-top: 16px;
+  margin-left: 32px;
   border: none;
   cursor: pointer;
 }
 
 .section-1 {
   display: flex;
-  order: 0.0625rem solid #000;
+  order: 1px solid #000;
   position: relative;
   text-align: center;
-  width: 70.5rem;
-  height: 6.5rem;
-  margin-top: 7.5rem;
-  margin-left: 9.75rem;
+  width: 1130px;
+  height: 104px;
+  margin-top: 120px;
+  margin-left: 156px;
 }
 .columns {
   display: flex;
@@ -140,247 +142,251 @@ body {
 
 .column h3 {
   display: block;
-  width: 16.5rem;
-  height: 1.5rem;
-  padding-right: 1.5rem;
+  width: 264px;
+  height: 24px;
+  padding-right: 24px;
   color: #2e2f42;
-  font-size: 1.25rem;
+  font-size: 20px;
   text-align: left;
 }
 .column p {
-  font-size: 1rem;
+  font-size: 16px;
   color: #434455;
   display: block;
-  width: 16.5rem;
-  height: 4.5rem;
-  margin-top: 0.5rem;
-  line-height: 1.5rem;
-  letter-spacing: 2%;
+  width: 264px;
+  height: 72px;
+  margin-top: 8px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
   text-align: left;
 }
-
+/* Section 1 - End */
+/* Section 2 - Start */
 .team-section {
   display: inline-block;
-  width: 90rem;
-  height: 45.75rem;
-  margin-top: 7.25rem;
+  width: 1440px;
+  height: 732px;
+  margin-top: 116px;
   background-color: #f4f4fd;
 }
 .our-team {
   display: block;
-  width: 10.125rem;
-  height: 2.5rem;
-  margin-top: 7.75rem;
-  margin-left: 39.9375rem;
+  width: 162px;
+  height: 40px;
+  margin-top: 124px;
+  margin-left: 639px;
 }
 
 .our-team h2 {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  letter-spacing: 2%;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.32px;
   color: #2e2f42;
 }
 
 .team-card {
   display: inline-block;
   position: relative;
-  width: 16.5rem;
-  height: 23.75rem;
-  margin-top: 4.5rem;
+  width: 264px;
+  height: 380px;
+  margin-top: 72px;
   background-color: #fff;
   border-radius: 1%;
-  box-shadow: 0 0.0625rem 0rem 0 #2e2f4215;
+  box-shadow: 0 1px 0px 0 #2e2f4215;
 }
 
 .team-cards ul {
   display: flex;
-  margin-left: 9rem;
-  margin-right: 9rem;
+  margin-left: 144px;
+  margin-right: 144px;
 }
 .team-section .team-cards ul li {
   list-style-type: none;
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .team-image img {
-  width: 16.5rem;
-  height: 16.25rem;
+  width: 264px;
+  height: 260px;
 }
 
 .team-card .team-detail {
   display: block;
-  width: 14.5rem;
-  height: 3.5rem;
-  margin-top: 2rem;
-  margin-left: 1rem;
+  width: 232px;
+  height: 56px;
+  margin-top: 32px;
+  margin-left: 16px;
 }
 
 .team-detail h3 {
-  font-size: 1.25rem;
+  font-size: 20px;
   color: #2e2f42;
   text-align: center;
-  font-weight: 1.5rem;
+  font-weight: 24px;
 }
 .team-detail p {
   color: #434455;
-  font-size: 1rem;
-  font-weight: 1.5rem;
+  font-size: 16px;
+  font-weight: 24px;
   text-align: center;
 }
 
+/* Section 2 - End */
+/* Section 3 - Start */
 .our-portfolio {
   text-align: center;
   display: block;
-  width: 13.625rem;
-  height: 2.5rem;
-  margin-left: 28.4375rem;
+  width: 218px;
+  height: 40px;
+  margin-left: 455px;
 }
 .our-portfolio h2 {
-  font-size: 2.25rem;
-  font-weight: 2.5rem;
+  font-size: 36px;
+  font-weight: 40px;
   color: #2e2f42;
-  letter-spacing: 2%;
+  letter-spacing: 0.32px;
 }
 .our-portfolio-section {
   display: inline-block;
-  width: 70.5rem;
-  height: 62.5rem;
-  margin-top: 7.75rem;
+  width: 1130px;
+  height: 1000px;
+  margin-top: 124px;
   position: relative;
   overflow: hidden;
   background-color: #ffffff;
-  margin-left: 9.75rem;
+  margin-left: 156px;
 }
 .row1 ul {
-  width: 70.5rem;
-  height: 26.25rem;
+  width: 1130px;
+  height: 420px;
   display: flex;
   list-style-type: none;
-  margin-top: 4.5rem;
+  margin-top: 72px;
 }
 .row1 ul li {
   display: flex;
   display: inline-block;
   position: relative;
-  width: 22.5rem;
-  height: 26.25rem;
+  width: 360px;
+  height: 420px;
   background-color: #fff;
-  margin-left: 0.75rem;
+  margin-left: 12px;
 }
 .row2 ul {
-  width: 70.5rem;
-  height: 26.25rem;
+  width: 1130px;
+  height: 420px;
   display: flex;
   list-style-type: none;
-  margin-top: 2.5rem;
+  margin-top: 40px;
 }
 
 .row2 ul li {
   display: flex;
   display: inline-block;
   position: relative;
-  width: 22.5rem;
-  height: 26.25rem;
+  width: 360px;
+  height: 420px;
   background-color: #fff;
-  margin-left: 0.75rem;
+  margin-left: 12px;
 }
 
 .pc-content1 {
   display: block;
-  width: 22.5rem;
-  height: 7.5rem;
-  border: 0.0313rem #e7e9fc;
+  width: 360px;
+  height: 120px;
+  border: 0.5px #e7e9fc;
   border-style: none solid solid solid;
-  padding-top: 0.0625rem;
+  padding-top: 1px;
 }
 .pc-content2 {
   display: block;
-  width: 22.5rem;
-  height: 7.5rem;
-  border: 0.0313rem #e7e9fc;
+  width: 360px;
+  height: 120px;
+  border: 0.5px #e7e9fc;
   border-style: none solid solid solid;
-  padding-top: 0.0625rem;
+  padding-top: 1px;
 }
 
 .pc-content1 h3 {
-  margin-left: 1rem;
-  margin-top: 2rem;
-  font-size: 1.25rem;
+  margin-left: 16px;
+  margin-top: 32px;
+  font-size: 20px;
   color: #2e2f42;
 }
 .pc-content2 h3 {
-  margin-left: 1rem;
-  margin-top: 2rem;
-  font-size: 1.25rem;
+  margin-left: 16px;
+  margin-top: 32px;
+  font-size: 20px;
   color: #2e2f42;
 }
 .pc-content1 p {
-  margin-left: 1rem;
-  margin-top: 0.5rem;
-  font-size: 1rem;
+  margin-left: 16px;
+  margin-top: 8px;
+  font-size: 16px;
   color: #434455;
 }
 .pc-content2 p {
-  margin-left: 1rem;
-  margin-top: 0.5rem;
-  font-size: 1rem;
+  margin-left: 16px;
+  margin-top: 8px;
+  font-size: 16px;
   color: #434455;
 }
-
+/* Section 3 - End */
+/* Footer - Start */
 .footer-section {
   display: block;
-  border: 0.0625rem solid #000;
-  width: 90rem;
-  height: 19.5rem;
+  border: 1px solid #000;
+  width: 1440px;
+  height: 312px;
   background-color: #2e2f42;
   position: relative;
-  margin-top: 7.5rem;
+  margin-top: 120px;
 }
 .footer-text {
   display: block;
-  width: 16.5rem;
-  height: 7rem;
-  margin-top: 6.25rem;
-  margin-left: 9.75rem;
+  width: 264px;
+  height: 112px;
+  margin-top: 100px;
+  margin-left: 156px;
 }
 
 .f-logo {
   display: block;
-  width: 7.1875rem;
-  height: 1.5rem;
+  width: 115px;
+  height: 24px;
 }
 
 .f-web {
   display: inline-block;
-  width: 2.75rem;
-  height: 1.3125rem;
+  width: 44px;
+  height: 21px;
   font-family: Raleway;
   font-weight: bold;
-  font-size: 1.125rem;
+  font-size: 18px;
   color: #4d5ae5;
   text-transform: uppercase;
-  letter-spacing: 3%;
+  letter-spacing: 0.48px;
 }
 
 .f-studio {
   display: inline-block;
-  font-size: 1.125rem;
+  font-size: 18px;
   font-family: Raleway;
   font-weight: bold;
   color: #f4f4fd;
-  width: 4.4375rem;
-  height: 1.3125rem;
+  width: 71px;
+  height: 21px;
   text-transform: uppercase;
-  letter-spacing: 3%;
+  letter-spacing: 0.48px;
 }
 
 .f-text {
-  font-size: 1rem;
+  font-size: 16px;
   color: #f4f4fd;
-  letter-spacing: 2%;
+  letter-spacing: 0.32px;
   display: block;
-  line-height: 1.5rem;
-  width: 16.5rem;
-  height: 4.5rem;
+  line-height: 24px;
+  width: 264px;
+  height: 72px;
 }
